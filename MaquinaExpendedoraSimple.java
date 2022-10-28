@@ -50,6 +50,13 @@
         
     }
     /**
+     * Permite cambiar el precio del billete al valor introducido como parámetro
+     */
+    public void setPrecioBillete(int precioDelBillete){
+    precioBillete = precioDelBillete;
+    }
+    
+    /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
      */
     public int getBalanceClienteActual() {
