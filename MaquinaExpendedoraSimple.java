@@ -68,7 +68,12 @@
     public int getBalanceClienteActual() {
         return balanceClienteActual;
     }
-    
+    /**
+     * Vacía el depósito
+     */
+    public void vaciarDepositoDinero(){
+        totalDineroAcumulado = 0;
+    }
     /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
