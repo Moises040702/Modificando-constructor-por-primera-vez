@@ -55,6 +55,12 @@
     public void setPrecioBillete(int precioDelBillete){
     precioBillete = precioDelBillete;
     }
+    /**
+     * Reduce el precio del billete
+     */
+    public void reducirPrecioBillete(int reduccion){
+        precioBillete -= reduccion;
+    }
     
     /**
      * Devuelve la cantidad de dinero que el cliente actual lleva introducida
@@ -62,7 +68,7 @@
     public int getBalanceClienteActual() {
         return balanceClienteActual;
     }
-
+    
     /**
      * Simula la introduccion de dinero por parte del cliente actual
      */
